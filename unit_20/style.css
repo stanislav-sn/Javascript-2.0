@@ -1,0 +1,53 @@
+.container  {
+    width: 100%;
+}
+
+section {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #444;
+}
+
+.block {
+    width: 75px;
+    height: 75px;
+    margin: 25px;
+    border: 2px solid #333;
+}
+
+.active {
+    background: orange;
+}
+
+.hide {
+    display: none;
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    margin-top: 10px;
+    height: auto;
+    width: 780px;
+}
+.level {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    margin: 1px;
+    height: 50px;
+    width: 50px;
+}
+.big-btn {
+    width: 17%;
+}
+.space-btn {
+    width: 70%;
+}

@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(16, 133, 133);
+}
+.container  {
+    width: 100%;
+}
+
+section {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #444;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col col-lg-12 text-center">
+                <h1>Получаем прогноз погоды по API</h1>
+                <h2>JavaScript v2.0. Урок 14</h2>
+            </div>
+        </div>
+    
+        <div class="city-table row">
+            <label for="city-select" class="label city-select"><span class="label-desc">Choose your town</span> </label>
+            <select name="City" id="city-select" class="select">
+                <option value="0">Выберите город</option>
+                <option value="1">Kyiv</option>
+                <option value="2">Kharkiv</option>
+                <option value="3">Poltava</option>
+            </select>
+            <button class="button-primary">Go</button>
+            <div class="package featured">
+                <p class="package-name">City</p>
+                <hr>
+                <p class="price">0&deg;</p>
+                <p class="disclaimer">Windy</p>
+                <hr>
+                <div class="features">
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
